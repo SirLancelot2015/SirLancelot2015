@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/icons8-traffic-light-48.png">
+  <title>Светофор</title>
+  <style>
+    * {
+      box-sizing: border-box;/* Применяется для изменения алгоритма расчета ширины и высоты элемента http://htmlbook.ru/css/box-sizing*/
+    }
+    body{
+      background-color: beige;/* Определяет цвет фона элемента. http://htmlbook.ru/css/background-color */
+    }
+    .container {
+      width: 200px;/* Устанавливает ширину блочных или заменяемых элементов. http://htmlbook.ru/css/width */
+      height: 400px;/* Устанавливает высоту блочных или заменяемых элементов.http://htmlbook.ru/css/height */
+      background-color: black;/* Определяет цвет фона элемента. http://htmlbook.ru/css/background-color */
+      border-radius: 4px;/* Устанавливает радиус скругления уголков рамки. Если рамка не задана, то скругление также происходит и с фоном. http://htmlbook.ru/css/border-radius */
+      padding-top: 25px;/* Устанавливает значение поля от верхнего края содержимого элемента. http://htmlbook.ru/css/padding-top  */
+      margin: auto;/* Устанавливает величину отступа от каждого края элемента. http://htmlbook.ru/css/margin */
+    }
+    .red,
+    .yellow,
+    .green {
+      width: 100px;/* Устанавливает ширину блочных или заменяемых элементов. http://htmlbook.ru/css/width */
+      height: 100px;/* Устанавливает высоту блочных или заменяемых элементов.http://htmlbook.ru/css/height */
+      border-radius: 50%;/* Устанавливает радиус скругления уголков рамки. Если рамка не задана, то скругление также происходит и с фоном. http://htmlbook.ru/css/border-radius */
+      margin: auto;/* Устанавливает величину отступа от каждого края элемента. http://htmlbook.ru/css/margin */
+      margin-bottom: 25px;/* Устанавливает величину отступа от нижнего края элемента. http://htmlbook.ru/css/margin-bottom */
+      background-color: rgb(61,59,59);/* Определяет цвет фона элемента. http://htmlbook.ru/css/background-color */
+      border: solid gray 1px;/* Универсальное свойство border позволяет одновременно установить толщину, стиль и цвет границы вокруг элемента. http://htmlbook.ru/css/border */
+      box-shadow: inset 0 0 15px rgb(109,103,103);/* Добавляет тень к элементу. http://htmlbook.ru/css/box-shadow */
+      cursor: pointer;/* Устанавливает форму курсора, когда он находится в пределах элемента. http://htmlbook.ru/css/cursor */
+    }
+    .red:hover {
+      background-color: red;/* Определяет цвет фона элемента. http://htmlbook.ru/css/background-color */
+    }
+    .yellow:hover{
+      background-color: yellow;/* Определяет цвет фона элемента. http://htmlbook.ru/css/background-color */
+    }
+    .green:hover{
+      background-color: green;/* Определяет цвет фона элемента. http://htmlbook.ru/css/background-color */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="red"></div>
+    <div class="yellow"></div>
+    <div class="green"></div>
+
+  </div>
+  
+</body>
+</html>
